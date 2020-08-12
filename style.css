@@ -1,0 +1,68 @@
+
+h1{
+    color:whitesmoke;
+    border: solid;
+    margin: 20px;
+    padding: 10px;
+}
+.Class1{
+    background-color: palevioletred;
+    display:flex;
+    justify-content: space-between;
+    margin: 50 px;
+}
+.menu{
+    font-style: italic;
+    color: whitesmoke;
+}
+h2,p{
+    font-size: medium;
+    color:black;
+    text-align: center;
+}
+.Grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+}
+Body{
+    background-color: bisque;
+}
+a:link{
+    color: violet;
+}
+a:visited{
+    color: palegreen;
+}
+a:hover{
+    color: teal;
+}
+.menu{
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.menu a{
+    margin-left: 20px;
+}
+.item{
+    position: relative;
+}
+.item h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h3{
+    color:whitesmoke;
+}
+.item:hover img{
+     opacity: 0.15;
+}
+.item:hover h3{
+    opacity: 5;
+}
